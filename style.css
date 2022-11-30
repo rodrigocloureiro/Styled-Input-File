@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 10px 0 0 10px;
+  background-color: #0ea7cd;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.main {
+  display: flex;
+  align-items: center;
+  gap: 0 5px;
+  margin-bottom: 10px;
+}
+
+input[type="file"] {
+  display: none;
+}
+
+#inputEstilo {
+  width: 200px;
+  height: 50px;
+  border-radius: 5px;
+  border: 2px solid #d2a34b;
+  background-color: #c01bc0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+.bg-green{
+  background-color: #adff2f !important;
+}
